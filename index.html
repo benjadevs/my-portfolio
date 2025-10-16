@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Albert Castro Albacete - Desarrollador Web Full-Stack especializado en React, Node.js y tecnologías modernas">
+    <meta name="keywords" content="desarrollador web, React, Node.js, JavaScript, portfolio, Albert Castro">
+    <meta name="author" content="Albert Castro Albacete">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Albert Castro Albacete - Desarrollador Web">
+    <meta property="og:description" content="Portfolio de desarrollador web especializado en React y Node.js">
+    <meta property="og:type" content="website">
+
+    <title>Albert Castro Albacete - Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="Albert Castro Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="theme-btn" aria-label="Cambiar tema">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Albert Castro Albacete</h1>
+            <h2>Desarrollador Web Full-Stack</h2>
+            <p class="hero-description">
+                Transformando ideas en aplicaciones web robustas con React, Node.js y tecnologías modernas.
+                Con experiencia única combinando precisión industrial y desarrollo de software.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">Ver Proyectos</a>
+                <a href="#contact" class="btn-secondary">Contactar</a>
+            </div>
+            <div class="availability">
+                <span class="status-dot"></span>
+                Disponible para nuevos proyectos
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="Albert Castro" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador web con una trayectoria única que combina <strong>10 años como modelista</strong> 
+                        en el sector automovilístico con formación especializada en desarrollo web moderno.
+                    </p>
+                    <p>
+                        Durante mis prácticas en <strong>Kennwort Consulting & Technologies</strong>, trabajé en 
+                        proyectos SaaS reales enfocados en sistemas de venta de entradas y control de acceso para gimnasios.
+                    </p>
+                    <p>
+                        Mi experiencia previa me ha proporcionado habilidades valiosas: trabajo en equipo en entornos 
+                        exigentes, resolución de problemas complejos y atención meticulosa al detalle.
+                    </p>
+                    <div class="download-cv">
+                        <a href="assets/CV-Albert-Castro-2024.pdf" class="btn-outline" download>
+                            📄 Descargar CV
+                        </a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>4+</h3>
+                        <p>Meses de prácticas<br>en desarrollo web</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Años de experiencia<br>profesional</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Proyectos web<br>completados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Stack Tecnológico</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript ES6+</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Herramientas</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">npm/yarn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Sistema de Control de Acceso">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Control de Acceso</h3>
+                        <p>Aplicación SaaS desarrollada durante prácticas en Kennwort. Sistema completo 
+                        de venta de entradas y control de acceso para gimnasios.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Supabase</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo en Vivo</a>
+                            <a href="#" class="project-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Dashboard Administrativo">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Administrativo</h3>
+                        <p>Panel de administración con autenticación, gestión de usuarios y 
+                        análisis de datos en tiempo real.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>CSS3</span>
+                            <span>Chart.js</span>
+                            <span>API REST</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo en Vivo</a>
+                            <a href="#" class="project-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Aplicación Full-Stack">
+                    </div>
+                    <div class="project-content">
+                        <h3>Aplicación Full-Stack Personal</h3>
+                        <p>Proyecto personal que demuestra dominio completo del stack tecnológico 
+                        con funcionalidades CRUD y autenticación.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>SQL</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo en Vivo</a>
+                            <a href="#" class="project-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Referencias</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <blockquote>
+                        "Albert demostró gran capacidad de aprendizaje y adaptación durante sus prácticas. 
+                        Su experiencia previa le aporta una perspectiva única y valiosa al desarrollo de software."
+                    </blockquote>
+                    <cite>
+                        <strong>Kennwort Consulting & Technologies</strong><br>
+                        Supervisor de Prácticas
+                    </cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        "Durante 10 años, Albert destacó por su precisión, trabajo en equipo y capacidad 
+                        para trabajar bajo presión en proyectos complejos."
+                    </blockquote>
+                    <cite>
+                        <strong>EDAG Engineering Spain S.L.</strong><br>
+                        Supervisor Industrial
+                    </cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hablemos de tu Proyecto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:albertus1291@gmail.com">albertus1291@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <a href="https://www.linkedin.com/in/albert-castro-albacete-38204615a/" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <a href="https://github.com/BeruzDev" target="_blank">GitHub</a>
+                    </div>
+                    <div class="contact-status">
+                        <span class="status-dot active"></span>
+                        <span>Disponible para nuevos proyectos</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Albert Castro Albacete. Desarrollador Web Full-Stack.</p>
+            <div class="social-links">
+                <a href="https://github.com/BeruzDev" target="_blank" aria-label="GitHub">
+                    <img src="images/github-icon.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/albert-castro-albacete-38204615a/" target="_blank" aria-label="LinkedIn">
+                    <img src="images/linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

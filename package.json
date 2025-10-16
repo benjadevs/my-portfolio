@@ -1,0 +1,37 @@
+{
+  "name": "albert-castro-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio personal de Albert Castro Albacete - Desarrollador Web Full-Stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8000 --open=/",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "validate": "html-validate index.html",
+    "lighthouse": "lighthouse http://localhost:8000 --output html --output-path ./audit.html"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "frontend",
+    "javascript",
+    "html",
+    "css",
+    "albert-castro"
+  ],
+  "author": "Albert Castro Albacete <albertus1291@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "lighthouse": "^10.4.0",
+    "html-validate": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeruzDev/portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/BeruzDev/portfolio/issues"
+  },
+  "homepage": "https://albert-castro-portfolio.netlify.app"
+}
