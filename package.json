@@ -1,5 +1,5 @@
 {
-  "name": "albert-castro-portfolio",
+  "name": "benjadevs-portfolio",
   "version": "1.0.0",
   "description": "Portfolio personal de Albert Castro Albacete - Desarrollador Web Full-Stack",
   "main": "index.html",
@@ -19,8 +19,9 @@
     "css",
     "albert-castro"
   ],
-  "author": "Albert Castro Albacete <albertus1291@gmail.com>",
-  "license": "MIT",
+  "author": "Benja <benjadevs@gmail.com>",
+  "license": "GNU GENERAL PUBLIC LICENSE  ",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "live-server": "^1.2.2",
     "lighthouse": "^10.4.0",
@@ -28,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BeruzDev/portfolio"
+    "url": "https://github.com/benjadevs/my-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/BeruzDev/portfolio/issues"
+    "url": "https://github.com/benjadevs/portfolio/issues"
   },
-  "homepage": "https://albert-castro-portfolio.netlify.app"
+  "homepage": "https://benjadevs-portfolio.netlify.app"
 }
