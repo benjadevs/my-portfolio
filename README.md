@@ -253,17 +253,15 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 📞 Contacto
 
 **Benja**
-- Email: benjadevs@gmail.com
+- Email: contacto@benrios.dev
 - LinkedIn: [bhr](https://www.linkedin.com/in/)
-- GitHub: [benjadevs](https://github.com/benjadevs)
+- GitHub: [benjadevs](https://github.com/benriosdev)
 
 ---
 
 ## 🎉 Agradecimientos
 
 - Formación en **ILERNA** - Desarrollo de Aplicaciones Web
-- Prácticas en **Kennwort Consulting & Technologies**
-- Experiencia previa en **EDAG Engineering Spain S.L.**
 - Comunidad de desarrolladores por inspiración y feedback
 
 ---
